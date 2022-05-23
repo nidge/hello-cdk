@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\awscdk\\hello-cdk\\src\\HelloCdk\\HelloCdk.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\awscdk\\hello-cdk\\src\\HelloCdk\\HelloCdk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\awscdk\\hello-cdk\\src\\HelloCdk\\HelloCdk.csproj",
+        "projectName": "HelloCdk",
+        "projectPath": "C:\\Code\\awscdk\\hello-cdk\\src\\HelloCdk\\HelloCdk.csproj",
+        "packagesPath": "C:\\Users\\Nigel\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\awscdk\\hello-cdk\\src\\HelloCdk\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nigel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Amazon.CDK.Lib": {
+              "target": "Package",
+              "version": "[2.24.1, )"
+            },
+            "Constructs": {
+              "target": "Package",
+              "version": "[10.0.0, 11.0.0)"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.13, 3.1.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
